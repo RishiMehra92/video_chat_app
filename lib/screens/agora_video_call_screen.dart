@@ -72,7 +72,7 @@ class _VideoCallScreenState extends State<AgoraVideoCallScreen> {
       await _engine!.enableVideo();
       await _engine!.startPreview();
       await _engine!.joinChannel(
-        token: '', // Empty for demo (use token in production)
+        token: '007eJxTYIhr5Oi9fOJkdasm1xrPppzLi9Y83tj51apJ1871sazIznwFhjRjCwvD5EQzs6TENJPERPOklBRzQ0MTc0szM2MDw8SU+C8MmQ2BjAwRl26wMjJAIIjPw5CSmpuvm5yRmJeXmsPAAACFeCMY', // Empty for demo (use token in production)
         channelId: _channel,
         uid: _uid,
         options: const ChannelMediaOptions(
